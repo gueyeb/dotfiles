@@ -1,0 +1,5 @@
+#!/bin/bash
+
+## Install vimified
+# (https://github.com/zaiste/vimified)
+curl -L https://raw.github.com/zaiste/vimified/master/install.sh | sh
