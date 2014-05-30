@@ -56,6 +56,8 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+export PATH="$PATH:$HOME/bin"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 ## Golang
@@ -98,6 +100,9 @@ alias ne='emacs -nw'
 alias j='jobs'
 alias z='zlock'
 # alias reload=". ${HOME}/.zshrc"
+
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 
 ## Useful personal commands
 
