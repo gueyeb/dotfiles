@@ -5,8 +5,15 @@
 cd "$(dirname "${BASH_SOURCE}")"
 git pull origin master
 
+function install() {
+    sh ./install.sh
+}
+
 function doIt() {
     
+    # launch install script to install stuff then doIt ;)
+    install
+
     # change files to .something and use it
 
     rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
