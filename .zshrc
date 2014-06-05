@@ -119,3 +119,6 @@ clean()
 ###
 
 source $ZSH/oh-my-zsh.sh
+
+## tmuxinator
+source $HOME/.tmuxinator/tmuxinator.zsh
