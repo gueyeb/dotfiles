@@ -30,8 +30,9 @@
 	pu  = !"git branch -r | grep proposed-updates- | awk -F 'origin/' '{ print $2 }' | tail -n 1 | xargs git checkout"
 	fpu = !"git fetch && git branch -r | grep proposed-updates- | awk -F 'origin/' '{ print $2 }' | tail -n 1 | xargs git checkout"
 	lg = !"git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 
-## Azendoo Add
+# Azendoo Add
 [rerere]
 	enabled = 1
 	auto
