@@ -116,6 +116,17 @@ clean()
     find ${SEARCH} \( -name "*~" -or -name ".*~" \) -exec rm -fv {} \;
 }
 
+#
+
+mcdir()
+{
+    if [ ${1} ]
+    then
+	mkdir ${1}
+	cd ${1}
+    fi
+}
+
 ###
 
 source $ZSH/oh-my-zsh.sh
