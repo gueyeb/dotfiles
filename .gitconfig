@@ -33,6 +33,8 @@
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	wordiff = !"git diff --word-diff"
 
+[core]
+	excludesfile = /Users/babacarg/.gitignore_global
 # Azendoo Add
 [rerere]
 	enabled = 1
