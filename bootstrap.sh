@@ -17,7 +17,7 @@ function doIt() {
     # change files to .something and use it
 
     rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
-	--exclude "README.md" --exclude "LICENSE-MIT.txt" --exclude "show_files.sh" -av --no-perms . ~
+	--exclude "README.md" --exclude "LICENSE-MIT.txt" --exclude "show_files.sh" -av --no-perms . ~/
     source ~/.bash_profile
     # source ~/.zshrc
 }
