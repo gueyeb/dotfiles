@@ -99,10 +99,14 @@ alias rm='rm -v'
 alias ne='emacs -nw'
 alias j='jobs'
 alias z='zlock'
-# alias reload=". ${HOME}/.zshrc"
+
+alias reload=". ${HOME}/.zshrc"
 
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+
+alias ip="curl -s http://checkip.dyndns.com/ | sed 's/[^0-9\.]//g'"
+alias localip="ipconfig getifaddr en1"
 
 ## Useful personal commands
 
