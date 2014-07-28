@@ -1,2 +1,13 @@
+# temporary files
 *~
 .DS_Store
+
+# compiled object files
+*.o
+
+# Folders
+_obj
+_test
+
+# executables
+*.exe
