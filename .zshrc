@@ -108,6 +108,11 @@ alias pbpaste='xclip -selection clipboard -o'
 alias ip="curl -s http://checkip.dyndns.com/ | sed 's/[^0-9\.]//g'"
 alias localip="ipconfig getifaddr en1"
 
+alias tree="tree --dirsfirst"
+
+alias q='logout'
+alias :q='logout"
+
 ## Useful personal commands
 
 clean()
@@ -121,6 +126,8 @@ clean()
 }
 
 #
+
+md() { mkdir -p "$@" && cd "$@"; }
 
 mcdir()
 {
