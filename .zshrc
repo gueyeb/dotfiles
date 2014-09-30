@@ -111,7 +111,7 @@ alias localip="ipconfig getifaddr en1"
 alias tree="tree --dirsfirst"
 
 alias q='logout'
-alias :q='logout"
+alias :q='logout'
 
 ## Useful personal commands
 
@@ -144,3 +144,6 @@ source $ZSH/oh-my-zsh.sh
 
 ## tmuxinator
 source $HOME/.tmuxinator/tmuxinator.zsh
+
+## NVM
+source ~/.nvm/nvm.sh
