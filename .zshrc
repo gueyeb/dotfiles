@@ -127,7 +127,8 @@ clean()
 
 #
 
-md() { mkdir -p "$@" && cd "$@"; }
+# mkdir: maximum nested function level reached
+# md() { mkdir -p "$@" && cd "$@"; }
 
 mcdir()
 {
