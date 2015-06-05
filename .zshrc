@@ -144,7 +144,7 @@ mcdir()
 source $ZSH/oh-my-zsh.sh
 
 ## tmuxinator
-source $HOME/.tmuxinator/tmuxinator.zsh
+# source $HOME/.bin/tmuxinator.zsh
 
 ## NVM
-source ~/.nvm/nvm.sh
+# source ~/.nvm/nvm.sh
