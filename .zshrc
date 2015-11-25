@@ -148,3 +148,8 @@ source $ZSH/oh-my-zsh.sh
 
 ## NVM
 # source ~/.nvm/nvm.sh
+
+## Linuxbrew
+# export PATH="$HOME/.linuxbrew/bin:$PATH"
+# export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+# export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
